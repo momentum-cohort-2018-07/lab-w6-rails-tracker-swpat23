@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  constellation: MyText
+  galaxy: MyText
+  viewed: false
+
+two:
+  name: MyText
+  constellation: MyText
+  galaxy: MyText
+  viewed: false
