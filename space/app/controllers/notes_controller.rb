@@ -24,9 +24,9 @@ class NotesController < ApplicationController
   end
  
   def destroy
-    @world = World.find(params[:world_id])
-    @note = @world.notes.find(note_params[:id])
+    @note = Note.find(params[:id])
     @note.destroy  
+    render json: @note
   end
  
   private

@@ -34,6 +34,7 @@ end
 
 # DELETE /worlds/1
 def destroy
+  @world = World.find(params[:world_id])
   @world.destroy
 end
 
